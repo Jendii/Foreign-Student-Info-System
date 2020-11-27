@@ -1,0 +1,1266 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/**{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}*/
+.container{
+position: relative;
+width: 1440px;
+height: 2924px;
+
+background: #FFFFFF;
+}
+
+
+/* ==========================Header Start========================== */
+.HeaderImage{
+/* NU-fast-facts 1 */
+
+position: absolute;
+width: 1440px;
+height: 194px;
+right: 0px;
+top: 0px;
+
+background: url("../assets/NU-header.png");
+opacity: 0.36;
+}
+
+.HeaderNU{
+/* Header */
+
+position: absolute;
+height: 194px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: linear-gradient(180deg, #B1C1F9 0%, rgba(255, 255, 255, 0) 100%);
+}
+.HeaderTxt{
+/* Foreign Student Information */
+
+position: absolute;
+width: 719px;
+height: 62px;
+left: 53px;
+top: 66px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;
+}
+
+.NuLogo{
+/* NU LOGO2 3 */
+
+position: absolute;
+width: 146px;
+height: 61px;
+left: 1186px;
+top: 66px;
+}
+
+.TagLine{
+/* EducTW 1 */
+
+position: absolute;
+width: 163px;
+height: 34px;
+left: 1177px;
+top: 120px;
+}
+
+.TabBar{
+/* Tab Bar */
+
+position: absolute;
+/*width: 1440px;*/
+width: 100%;
+height: 53px;
+left: 0px;
+top: 194px;
+
+background: #58AFFF;
+}
+
+.TabName{
+/* Main */
+
+position: absolute;
+width: 1000px;
+height: 31px;
+left: 66.35px;
+top: 204px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+text-align: left;
+
+color: #FFFFFF;
+}
+
+.LogOutBtn{
+/* Logout */
+
+position: absolute;
+width: 117px;
+height: 42px;
+left: 1308px;
+top: 198px;
+
+background: #58AFFF;
+border: none;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.LogOutBtn:hover{
+	color: black;
+}
+
+.LogOutIcn{
+/* exit 1 */
+
+position: absolute;
+width: 31px;
+height: 31px;
+left: 1274px;
+top: 203px;
+}
+
+/* ===========================Header End=========================== */
+
+.HeaderFont{
+/* >Add Student */
+
+position: absolute;
+width: 433px;
+height: 43px;
+left: 210px;
+top: 272px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ===========================Basic Info Box=========================== */
+
+.BasicInfoBx{
+/* Basic Info BG */
+
+position: absolute;
+width: 931px;
+height: 138px;
+left: 254px;
+top: 344px;
+
+
+background: #6AA6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+text-align: center;
+
+}
+/* ===========================Basic Info Box=========================== */
+
+/* ===========================Basic Info Start=========================== */
+
+.CollegeTxt{
+/* College: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 50px;
+top: 5px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.CourseTxt{
+/* Course: */
+
+position: absolute;
+/*width: 307px;*/
+height: 22px;
+left: 50px;
+top: 35px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+
+color: #000000;
+
+}
+
+.StudentNumTxt{
+/* Student Number: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 50px;
+top: 65px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+/* ===========================Basic Info End=========================== */
+
+/* ===========================Personal Info Box=========================== */
+.PersonaInfoBx{
+/* Personal Info BG */
+
+position: absolute;
+width: 931px;
+height: 992px;
+left: 254px;
+top: 506px;
+
+background: #6AA6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+
+}
+
+.PersonaInfo{
+/* I. Personal Information */
+
+position: absolute;
+width: 377px;
+height: 43px;
+left: 44px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+
+color: #000000;
+
+}
+/* ===========================Personal Info Box=========================== */
+
+/* ===========================Personal Info Start=========================== */
+
+
+.LastNameTxt{
+/* Last Name: */
+
+position: absolute;
+width: 307px;
+height: 23px;
+left: 100px;
+top: 100px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/*text-align: center;*/
+
+color: #000000;
+}
+
+.FirstNameTxt{
+/* First Name/Given Name: */
+
+position: absolute;
+width: 307px;
+height: 23px;
+left: 100px;
+top: 130px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/*text-align: center;*/
+
+color: #000000;
+}
+
+.MiddleNameTxt{
+/* Middle Name: */
+
+position: absolute;
+width: 307px;
+height: 23px;
+left: 100px;
+top: 160px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+/*text-align: center;*/
+
+color: #000000;
+}
+
+.BirthDateTxt{
+/* Date of Birth: */
+
+position: absolute;
+/*width: 586px;*/
+height: 23px;
+left: 100px;
+top: 190px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.Gender{
+/* Gender: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 220px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.NationalityTxt{
+/* * Citezenship/Nationality: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 250px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.HeightTxt{
+/* Height: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 280px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.WeightTxt{
+/* Weight: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 310px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ContactFont{
+/* Contact Number(s) in The Philippines */
+
+position: absolute;
+width: 363px;
+height: 29px;
+left: 100px;
+top: 370px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.LandlineTxt{
+/* Landline: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 400px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.MobileTxt{
+/* * Mobile: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 430px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ResidentFont{
+/* Residential Address in the Philippines */
+
+position: absolute;
+width: 363px;
+height: 29px;
+left: 100px;
+top: 490px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.StreetTxt{
+/* * House/Unit No., Street, Subdivision/Village: */
+
+position: absolute;
+/*width: 307px;*/
+height: 46px;
+left: 100px;
+top: 520px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.CityTxt{
+/* * Barangay, Municipality/City: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 550px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ZipCodeTxt{
+/* * Province, Zip Code: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 580px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.CountryBirthTxt{
+/* * Country of Birth: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 610px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.CivilStatTxt{
+/* * Civil Status: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 640px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.SSSTxt{
+/* * Special Security Registration Number(SSRN) */
+
+position: absolute;
+/*width: 307px;*/
+height: 46px;
+left: 100px;
+top: 670px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.EmailTxt{
+/* * Email Address */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 700px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ResidentAbrFont{
+/* Residential Address Abroad */
+
+position: absolute;
+width: 363px;
+height: 29px;
+left: 100px;
+top: 760px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.StreetAbrTxt{
+/* * House/Unit No., Street, Subdivision/Village: */
+
+position: absolute;
+/*width: 307px;*/
+height: 46px;
+left: 100px;
+top: 790px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.CityAbrTxt{
+/* * City/State: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 820px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+
+.ZipCodeAbrTxt{
+/* * Country, Zip Code: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 850px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+/* ===========================Personal Info End=========================== */
+
+/* ===========================Travel Info Box=========================== */
+.TravelInfoBx{
+/* Personal Info BG */
+
+position: absolute;
+width: 931px;
+height: 298px;
+left: 254px;
+top: 1529px;
+
+background: #6AA6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+.TravelInfo{
+/* II. Travel Information */
+
+position: absolute;
+width: 377px;
+height: 43px;
+left: 44px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+
+color: #000000;
+}
+/* ===========================Travel Info Box=========================== */
+
+/* ===========================Travel Info Start=========================== */
+
+.PassportTxt{
+/* * Passport Number: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 90px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ExpiryTxt{
+/* * Expiry Date/Valid Until: */
+
+position: absolute;
+width: 699px;
+height: 23px;
+left: 100px;
+top: 120px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.IssuePlaceTxt{
+/* * Place of Issuance: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 150px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ArrivalDateTxt{
+/* * Date of Latest Arrival: */
+
+position: absolute;
+/*width: 680px;*/
+height: 23px;
+left: 100px;
+top: 180px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.FlightNumTxt{
+/* * Flight Number: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 210px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.LastDayTxt{
+/* * Last Day of Authorized Stay: */
+
+position: absolute;
+/*width: 741px;*/
+height: 23px;
+left: 100px;
+top: 240px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+/* ===========================Travel Info End=========================== */
+
+/* ===========================ACR I-CARD Box=========================== */
+.ACRBx{
+/* ACR I-CARD BG */
+
+position: absolute;
+width: 931px;
+height: 298px;
+left: 254px;
+top: 1860px;
+
+background: #6AA6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+.ACR{
+/* III. ACR I-CARD */
+
+position: absolute;
+/*width: 377px;*/
+height: 43px;
+left: 44px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+
+color: #000000;
+}
+/* ===========================ACR I-CARD Box=========================== */
+
+
+/* ===========================ACR I-CARD Start=========================== */
+
+.ACRNumTxt{
+/* * Alien Certificate of Registration (ACR) Number: */
+
+position: absolute;
+/*width: 307px;*/
+height: 47px;
+left: 100px;
+top: 90px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.ACRIssueDateTxt{
+/* * Date of Issuance: */
+
+position: absolute;
+/*width: 641px;*/
+height: 23px;
+left: 100px;
+top: 120px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.ValidDateTxt{
+/* * Expiry Date/Valid Until: */
+
+position: absolute;
+/*width: 699px;*/
+height: 23px;
+left: 100px;
+top: 150px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.CertNumTxt{
+/* * Certificate of Residence Number (CRN): */
+
+position: absolute;
+/*width: 307px;*/
+height: 47px;
+left: 100px;
+top: 180px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+/* ===========================ACR I-CARD End=========================== */
+
+/* ===========================Guardian's Information Box=========================== */
+.GuardBx{
+/* Guardian's Info BG */
+
+position: absolute;
+width: 931px;
+height: 553px;
+left: 254px;
+top: 2190px;
+
+background: #6AA6FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+.GuardInfo{
+/* IV. Guardian's Information */
+
+position: absolute;
+/*width: 444px;*/
+height: 43px;
+left: 44px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+
+color: #000000;
+}
+/* ===========================Guardian's Information Box=========================== */
+
+/* ===========================Guardian's Information Start=========================== */
+
+.GuardNameTxt{
+/* * Name of Guardian (Last Name,First Name, Middle Name): */
+
+position: absolute;
+/*width: 307px;*/
+height: 47px;
+left: 100px;
+top: 100px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.RelationTxt{
+/* * Relationship with the Applicant: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 130px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardResidentFont{
+/* Residential Address in the Philippines */
+
+position: absolute;
+/*width: 363px;*/
+height: 29px;
+left: 100px;
+top: 180px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.GuardAddressTxt{
+/* * House/Unit No., Street, Subdivision/Village: */
+
+position: absolute;
+/*width: 307px;*/
+height: 46px;
+left: 100px;
+top: 210px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardZipTxt{
+/* * Province, Zip Code: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 240px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardCityTxt{
+/* * Barangay, Municipality/City: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 270px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardCountryTxt{
+/* * Country, Zip Code: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 300px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardContactFont{
+/* Contact Number(s) in the Philippines */
+
+position: absolute;
+/*width: 363px;*/
+height: 29px;
+left: 100px;
+top: 360px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.GuardLandlineTxt{
+/* Landline: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 390px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.GuardMobileTxt{
+/* * Mobile: */
+
+position: absolute;
+/*width: 307px;*/
+height: 23px;
+left: 100px;
+top: 420px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+
+color: #000000;
+}
+
+.EditBtn{
+/* Edit */
+
+position: absolute;
+width: 98px;
+height: 40px;
+left: 604px;
+top: 2775px;
+
+background: #091264;
+border-radius: 5px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.CancelBtn{
+/* Cancel */
+
+position: absolute;
+width: 98px;
+height: 40px;
+left: 714px;
+top: 2775px;
+
+background: #091264;
+border-radius: 5px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.EndLine{
+/* Line 1 */
+
+position: absolute;
+width: 1440px;
+height: 0px;
+left: calc(50% - 1440px/2);
+top: 2924px;
+
+border: 1px solid #000000;
+}
+/* ===========================Guardian's Information Start=========================== */

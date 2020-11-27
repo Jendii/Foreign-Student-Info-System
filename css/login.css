@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sumana&display=swap');
+
+.container{
+position: absolute;
+width: 862px;
+height: 703px;
+left: calc(50% - 862px/2);
+top: calc(50% - 703px/2 + 0.5px);
+
+background: #FFFFFF;
+}
+
+.NuLogo{
+/* NU LOGO2 2 */
+position: absolute;
+width: 400.05px;
+height: 166.91px;
+left: 31px;
+top: 218px;
+}
+
+
+.TagLine{
+/* EducTW 2 */
+position: absolute;
+width: 315.27px;
+height: 66.23px;
+left: 73.39px;
+top: 384.91px;
+}
+
+.line{
+/* Line 1 */
+
+position: absolute;
+width: 679px;
+height: 0px;
+left: 91px;
+top: 598px;
+
+border: 1px solid #000000;
+
+}
+
+.LoginBx{/* Account Login */
+
+/* MainLoginBx */
+
+position: absolute;
+width: 349px;
+height: 269px;
+left: 472px;
+top: 200px;
+
+background: #A7B5FF;
+border: 1px solid #0427A5;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+}
+
+#AccountHdr{
+/* Account Login */
+
+position: absolute;
+width: 248px;
+height: 74px;
+left: calc(50% - 248px/2 + 215px);
+top: calc(50% - 74px/2 - 114.5px);
+
+font-family: Sumana;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 73px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+#Error {
+/* incorrect username/password */
+position: absolute;
+width: 234px;
+height: 11px;
+left: 528px;
+top: 382px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #FF0000;
+}
+
+
+
+.LoginBtn{
+/* Rectangle 4 */
+
+position: absolute;
+width: 248px;
+height: 43px;
+left: 522px;
+top: 400px;
+
+background: #6866C8;
+border-radius: 5px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+
+color: #000000;
+}
+
+
+.UsernameTxt{
+/* Rectangle 2 */
+
+position: absolute;
+width: 248px;
+height: 43px;
+left: 522px;
+top: 275px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+
+.PasswordTxt{
+/* Rectangle 3 */
+
+position: absolute;
+width: 248px;
+height: 43px;
+left: 522px;
+top: 330px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+

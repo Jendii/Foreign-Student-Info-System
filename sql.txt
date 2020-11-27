@@ -1,0 +1,103 @@
+To get started run the following SQL commands:
+
+CREATE DATABASE portal;
+GRANT ALL ON portal.* TO 'NU'@'localhost' IDENTIFIED BY 'sao';
+GRANT ALL ON portal.* TO 'NU'@'127.0.0.1' IDENTIFIED BY 'sao';
+
+USE portal; (Or select portal in phpMyAdmin)
+
+
+CREATE TABLE SAO(
+   sao_id INTEGER NOT NULL
+     AUTO_INCREMENT KEY,
+   name VARCHAR(128) NOT NULL,
+   email VARCHAR(128) NOT NULL,
+   Password BINARY(64) NOT NULL,
+   NU_ID VARCHAR(128) NOT NULL
+) ENGINE=InnoDB CHARSET=utf8;
+
+
+INSERT INTO SAO (name,email,Password,NU_ID) VALUES ('Arriane Jequinto','ayjequinto@gmail.com',SHA1('admin'),'19-0001')
+
+
+CREATE TABLE profile(
+   id INTEGER NOT NULL
+     AUTO_INCREMENT KEY,
+   course VARCHAR(128) NOT NULL,
+   college VARCHAR(128) NOT NULL,
+
+STUDENT_ID VARCHAR(128) NOT NULL UNIQUE,
+Lname VARCHAR(128) NOT NULL,
+Fname VARCHAR(128) NOT NULL,
+Mname VARCHAR(128) NOT NULL,
+bday VARCHAR(128) NOT NULL,
+gender VARCHAR(128) NOT NULL,
+nationality VARCHAR(128) NOT NULL,
+height VARCHAR(128),
+weight VARCHAR(128),
+landline VARCHAR(128),
+mobile VARCHAR(128) NOT NULL,
+
+addressP VARCHAR(128) NOT NULL,
+cityP VARCHAR(128) NOT NULL,
+zipcodeP VARCHAR(128) NOT NULL,
+
+countryBirth VARCHAR(128) NOT NULL,
+civilStatus VARCHAR(128) NOT NULL,
+ssrn VARCHAR(128) NOT NULL,
+email VARCHAR(128) NOT NULL,
+
+addressA VARCHAR(128) NOT NULL,
+cityA VARCHAR(128) NOT NULL,
+countryzipcodeA VARCHAR(128) NOT NULL,
+
+passport VARCHAR(128) NOT NULL,
+passportExpiry VARCHAR(128) NOT NULL,
+placeIssuance VARCHAR(128) NOT NULL,
+latestArrival VARCHAR(128) NOT NULL,
+flightNumber VARCHAR(128) NOT NULL,
+lastStay VARCHAR(128) NOT NULL,
+
+acr VARCHAR(128) NOT NULL,
+acrIssuance VARCHAR(128) NOT NULL,
+acrExpiry VARCHAR(128) NOT NULL,
+crn VARCHAR(128) NOT NULL,
+
+Gname VARCHAR(128) NOT NULL,
+Grelationship VARCHAR(128) NOT NULL,
+GaddressP VARCHAR(128) NOT NULL,
+GzipcodeP VARCHAR(128) NOT NULL,
+GcityP VARCHAR(128) NOT NULL,
+Gcountryzipcode VARCHAR(128) NOT NULL,
+
+Glandline VARCHAR(128),
+Gmobile VARCHAR(128),
+
+) ENGINE=InnoDB CHARSET=utf8;
+
+
+SELECT * FROM profile ORDER BY STUDENT_ID ASC
+
+===== FOR TESTING =====
+ 
+
+STUDENT1:
+2015-100609
+26/11/2020
+
+
+STUDENT2:
+2020-102965
+23/06/1999
+
+
+STUDENT 3:
+2020-123456
+22/08/1998
+
+
+SAO:
+19-0001
+admin
+
+
